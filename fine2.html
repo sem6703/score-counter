@@ -13,8 +13,9 @@
 	.u01 {font-size: 22px;width: 90%;margin:0 auto;}
 	.u01 > li{border: 1px solid #C29974; padding:25px 10px;margin: 2px;}
 	.u01 > li > label {padding-left: 5px; cursor: pointer;}
-	.j {margin-left: 60px; cursor: pointer;}
-	.u01 .h {background: #C29974;text-align: center; font-weight:bold;padding:8px}
+	.j {margin-left: 60px; cursor: pointer; outline: 3px solid #C29974; border-radius: 3px;}
+	.j:after {content:'';display: block;border: 1px solid #C29974;width: 13px;height: 13px;}
+	.u01 .h {background: #C29974;text-align: center; font-weight:bold; padding:8px;}
 	</style>
 </head>
 <body>
@@ -47,7 +48,7 @@
 		<div id="summa" style="position: fixed; top:0px; left: 0px; width:120px; height: 120px; background: yellow;font-size:48px;text-align: center;padding-top: 30px;">0</div>
 		<ul class="u01" style="">
 <li class="h">
-БАЗОВЫЙ КРИТЕРИИ
+БАЗОВЫЙ КРИТЕРИИ. 
 ВЕРСТКА</li>
 			<li>
 				<input type="checkbox" class="j" name="agreement" id="b1" data-x="2.4">
